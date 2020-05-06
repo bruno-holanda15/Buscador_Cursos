@@ -1,0 +1,12 @@
+{
+    "name": "bruno-holanda15/buscador_cursos",
+    "description": "Buscador de Cursos da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Mendes",
+            "email": "br.holanda15@gmail.com"
+        }
+    ],
+    "require": {}
+}
