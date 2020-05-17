@@ -10,8 +10,8 @@ $client = new Client(['verify' => false]);
 $response = $client->request('GET', 'https://www.alura.com.br/cursos-online-programacao/php');
 
 $html = $response->getBody();
-$crawler = new Crawler($html);
-
+$crawler = new Crawler();
+$crawler->addHtmlContent(($html));
 $cursos = $crawler->filter('span.card-curso__nome');
 
 foreach ($cursos as $curso ) {
