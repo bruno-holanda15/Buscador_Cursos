@@ -1,2 +1,2 @@
 # Buscador_Cursos
-Buscador de cursos da Alura.
+Buscador de cursos PHP da Alura.
