@@ -30,6 +30,9 @@
         "check" : [
             "@phan",
             "@cs"
+        ],
+        "post-update-cmd": [
+            "@check"
         ]
     },
     "scripts-descriptions": {
