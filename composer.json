@@ -38,5 +38,6 @@
     "scripts-descriptions": {
         "check" : "Roda verificações do código executados pelas dependências phan e cs(codesniffer)"
     },
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "bin": ["buscar.php"]
 }
