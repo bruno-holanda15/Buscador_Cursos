@@ -26,6 +26,13 @@
     },
     "scripts": {
         "cs" : "phpcs --standard=PSR12 src/",
-        "phan" : "phan --allow-polyfill-parser"
+        "phan" : "phan --allow-polyfill-parser",
+        "check" : [
+            "@phan",
+            "@cs"
+        ]
+    },
+    "scripts-descriptions": {
+        "check" : "Roda verificações do código executados pelas dependências phan e cs(codesniffer)"
     }
 }
